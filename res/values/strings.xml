@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IAC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook">www.facebook.com/CLUB.ANDROID.INSAT</string>
+    <string name="twitter">twitter.com/IAC_INSAT</string>
+    <string name="siteweb">www.insatandroidclub.org</string>
+    <string name="title_activity_error_article">ErrorArticleActivity</string>
+
+</resources>

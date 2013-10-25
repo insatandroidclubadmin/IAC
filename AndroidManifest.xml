@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.challenge.iac"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.challenge.iac.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.challenge.iac.MainActivity" >
+        </activity>
+        <activity android:name="com.challenge.iac.ProgressBar" >
+        </activity>
+        <activity android:name="com.challenge.iac.GalleryActivity" >
+        </activity>
+        <activity android:name="com.challenge.parsing.ErrorArticleActivity" >
+        </activity>
+        <activity android:name="com.challenge.parsing.SecondActivity" >
+        </activity>
+        <activity android:name="com.challenge.parsing.PalmresActivity" >
+        </activity>
+        <activity android:name="com.challenge.parsing." >
+        </activity>
+        <activity android:name="com.challenge.parsing.ArticleList" >
+        </activity>
+        <activity android:name="com.challenge.iac.AtelierActivity" >
+        </activity>
+        <activity android:name="com.challenge.iac.MagActivity" >
+        </activity>
+        <activity android:name="com.challenge.iac.PDFActivity" >
+        </activity>
+        <activity android:name="com.challenge.iac.IACActivity" >
+        </activity>
+        <activity
+            android:name="com.challenge.iac.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.challenge.parsing.ErrorPalmaresActivity"
+            android:label="@string/title_activity_error_article" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AtelierActivity" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/dockbar" />
+
+    <TextView
+        android:id="@+id/atelierjava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="L'atelier Java SDK android de INSAT ANDROID CLUB
+		s'interresse au developpement des applications android.
+		Elle assure également des formations android destinées au public."
+        android:textColor="#4E3D28"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/atelierreseau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="L'atelier Sécurité de INSAT ANDROID CLUB s'interresse 
+        à la sécurité des applications mobiles ainsi que la réalisation et 
+        la conception des applications destinées au domaine du réseau mobile. 
+        Elle assure également des formations de sécurité et réseau mobiles destinées
+		au public."
+        android:textColor="#4E3D28"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ateliergaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Atelier Android Gaming fait partie de INSAT ANDROID CLUB et a pour objectifs:
+		Formation des nouveaux membres dans le domaine de developpement des jeux android
+		Developpement des jeux android
+		"
+        android:textColor="#4E3D28"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/atelierrobotique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="l'atelier Robotique INSAT ANDROID CLUB. Cet atelier s'interresse à la réalisation 
+        des robots commandés via des terminaux mobiles.
+		Elle assure également des formations android embarqué destinées au public. 
+		"
+        android:textColor="#4E3D28"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/atelierwebmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="l'atelier Webmobile android de INSAT ANDROID CLUB s'interresse au developpement des applications
+         multi-plateforme avec la nouvelle technologie HTML5"
+        android:textColor="#4E3D28"
+        android:visibility="invisible" />
+
+</RelativeLayout>

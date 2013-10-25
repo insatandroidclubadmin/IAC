@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroundland"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IACActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSAT ANDROID CLUB est le club dédié à la technologie Android au sein de l&apos;INSAT (Institut National des Sciences Appliquées et de Technologies).
+CLUB fondé le 1er septembre 2011 par M Belhassine Amine, premier club à vocation Android en Tunisie, il se place aujourd&apos;hui comme club leader de la technologie Android en Tunisie.
+Notre club vise à démocratiser la technologie Android dans notre Pays, et ce à travers ses différentes actions dirigées principalement vers les développeurs d&apos;applications et de systèmes.
+Notre club est affilié à la communauté Android nationale : TUNANDROID et au Tunis Google Technologies User Group."
+        android:textColor="#4E3D28" />
+
+</LinearLayout>

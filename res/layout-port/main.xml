@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pj="http://schemas.android.com/apk/res/com.challenge.iac"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:background="@drawable/main"
+        android:padding="7dp" >
+
+        <com.challenge.carousel.Carousel
+            android:id="@+id/carousel"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.86"
+            android:animationDuration="200"
+            android:gravity="bottom"
+            pj:Items="@array/entries"
+            pj:Names="@array/names"
+            pj:SelectedItem="0"
+            pj:UseReflection="true" >
+
+        </com.challenge.carousel.Carousel>
+    </LinearLayout>
+
+</LinearLayout>

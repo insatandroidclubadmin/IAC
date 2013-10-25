@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/android</item>		
+		<item>@drawable/articles</item> 		
+		<item>@drawable/ateliers</item>		
+		<item>@drawable/contact</item>
+		<item>@drawable/gallerie</item>		
+		<item>@drawable/magazine</item>
+		<item>@drawable/palmares</item>						
+	</array>	
+	<array name="names">
+	    <item>IAC?</item>
+	    <item>Articles</item>
+	    <item>Ateliers</item>
+	    <item>Contact</item>
+	    <item>Gallerie</item>
+	    <item>Magazine</item>
+	    <item>Palmarès</item>
+	</array>
+</resources>
